@@ -1,7 +1,7 @@
 # tp4056
 TP4056 charger kicad schematics
 
-Kikcad version with tp4056 footprint and schematics
+Kicad version with tp4056 footprint and schematics
 
 TP4056 Lithium Cell Charger Module with Battery Protection  without usb connector
 
