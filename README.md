@@ -8,9 +8,15 @@ TP4056 Lithium Cell Charger Module with Battery Protection.  KICAD v6. old versi
 Charging current set to 130ma (R=10kOm)
 
 
-![Preview](https://github.com/alltheworld/tp4056/blob/master/out/charger_stepup1.jpg)
 
-![Preview](https://github.com/alltheworld/tp4056/blob/master/out/charger_stepup2.jpg)
+tp4056_kicad6_base/out/tp4056_board_img.jpg
+![Preview](https://github.com/alltheworld/tp4056/blob/978aee3d790ccff35a72ef8bf0622bad2f89fe4c/tp4056_kicad6_base/out/tp4056_board_img.jpg)
+
+
+![Preview](https://github.com/alltheworld/tp4056/blob/978aee3d790ccff35a72ef8bf0622bad2f89fe4c/tp4056_kicad6_base/out/tp4056_diy_img1.jpg)
+
+
+![Preview](https://github.com/alltheworld/tp4056/blob/978aee3d790ccff35a72ef8bf0622bad2f89fe4c/tp4056_kicad6_base/out/tp4056_diy_img2.jpg)
 
 
 tp4056 for DIY hand soldering with microUSB.
