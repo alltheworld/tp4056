@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/data/repo.mbed/tp4056/tp4056_kicad6_base/tp4056/tp4056.kicad_sch</source>
+    <date>Tue 22 Mar 2022 02:32:24 AM EET</date>
+    <tool>Eeschema 6.0.3-a3aad9c10e~116~ubuntu20.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>tp4056.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>TP4056</value>
+      <footprint>Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm</footprint>
+      <libsource lib="tp4056" part="TP4056" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="tp4056.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9082ef96-c941-4e71-add8-ab5970963858</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="tp4056" part="TP4056">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TP4056</field>
+      </fields>
+      <pins>
+        <pin num="1" name="TEMP" type="input"/>
+        <pin num="2" name="PROG" type="input"/>
+        <pin num="4" name="VCC" type="input"/>
+        <pin num="5" name="BAT" type="input"/>
+        <pin num="6" name="STDBY" type="input"/>
+        <pin num="7" name="CHRG" type="input"/>
+        <pin num="8" name="CE" type="input"/>
+        <pin num="9" name="PP" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="tp4056">
+      <uri>/data/repo.mbed/tp4056/tp4056_kicad6_base/tp4056/symbol_lib/tp4056.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="unconnected-(U1-Pad1)">
+      <node ref="U1" pin="1" pinfunction="TEMP" pintype="input"/>
+    </net>
+    <net code="2" name="unconnected-(U1-Pad2)">
+      <node ref="U1" pin="2" pinfunction="PROG" pintype="input"/>
+    </net>
+    <net code="3" name="unconnected-(U1-Pad4)">
+      <node ref="U1" pin="4" pinfunction="VCC" pintype="input"/>
+    </net>
+    <net code="4" name="unconnected-(U1-Pad5)">
+      <node ref="U1" pin="5" pinfunction="BAT" pintype="input"/>
+    </net>
+    <net code="5" name="unconnected-(U1-Pad6)">
+      <node ref="U1" pin="6" pinfunction="STDBY" pintype="input"/>
+    </net>
+    <net code="6" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="CHRG" pintype="input"/>
+    </net>
+    <net code="7" name="unconnected-(U1-Pad8)">
+      <node ref="U1" pin="8" pinfunction="CE" pintype="input"/>
+    </net>
+    <net code="8" name="unconnected-(U1-Pad9)">
+      <node ref="U1" pin="9" pinfunction="PP" pintype="input"/>
+    </net>
+  </nets>
+</export>

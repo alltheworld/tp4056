@@ -1,0 +1,17 @@
+"Source:","/data/repo.mbed/tp4056/tp4056_kicad6_base/tp4056/tp4056.kicad_sch"
+"Date:","Tue 22 Mar 2022 02:32:24 AM EET"
+"Tool:","Eeschema 6.0.3-a3aad9c10e~116~ubuntu20.04.1"
+"Generator:","/usr/share/kicad/plugins/bom_csv_grouped_by_value.py"
+"Component Count:","1"
+
+"Individual Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"","","U1","TP4056","tp4056:TP4056","Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm",""
+
+
+
+"Collated Components:"
+
+"Item","Qty","Reference(s)","Value","LibPart","Footprint","Datasheet"
+"1","1","U1","TP4056","tp4056:TP4056","Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm",""
