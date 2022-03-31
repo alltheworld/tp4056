@@ -1168,10 +1168,10 @@
   )
 
   (symbol (lib_id "Device:LED") (at 74.93 85.09 180) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 35d00ad5-28b1-4a54-8c44-b8392be9929e)
     (property "Reference" "D1" (id 0) (at 76.5175 77.47 0))
-    (property "Value" "LED" (id 1) (at 76.5175 80.01 0))
+    (property "Value" "RED" (id 1) (at 72.39 81.28 0))
     (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (id 2) (at 74.93 85.09 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1295,10 +1295,10 @@
   )
 
   (symbol (lib_id "Device:LED") (at 74.93 90.17 180) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 7f0062b4-e7f2-4234-af31-125472e340b7)
-    (property "Reference" "D2" (id 0) (at 76.5175 82.55 0))
-    (property "Value" "~" (id 1) (at 76.5175 85.09 0))
+    (property "Reference" "D2" (id 0) (at 77.47 92.71 0))
+    (property "Value" "GREEN" (id 1) (at 68.58 88.9 0))
     (property "Footprint" "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder" (id 2) (at 74.93 90.17 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -1466,7 +1466,7 @@
     (property "Reference" "R6" (id 0) (at 168.91 100.3299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "ZERO" (id 1) (at 166.37 104.14 90)
+    (property "Value" "0R" (id 1) (at 166.37 104.14 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder" (id 2) (at 164.592 101.6 90)
@@ -1551,10 +1551,10 @@
       (reference "C3") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/35d00ad5-28b1-4a54-8c44-b8392be9929e"
-      (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "D1") (unit 1) (value "RED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/7f0062b4-e7f2-4234-af31-125472e340b7"
-      (reference "D2") (unit 1) (value "~") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
+      (reference "D2") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
     )
     (path "/ff08e3fa-c419-4101-acf6-7d150274f530"
       (reference "J1") (unit 1) (value "USB_B_Micro") (footprint "usb_footprint:tp4056_USB_Micro-B_Molex_47346-0001_fix")
@@ -1593,7 +1593,7 @@
       (reference "R5") (unit 1) (value "100") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/edb59100-665a-4344-b9e1-40a9c55e508a"
-      (reference "R6") (unit 1) (value "ZERO") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
+      (reference "R6") (unit 1) (value "0R") (footprint "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder")
     )
     (path "/404df2ec-b035-42d3-b6dd-7c72e0043d20"
       (reference "U1") (unit 1) (value "TP4056") (footprint "Package_SO:SOIC-8-1EP_3.9x4.9mm_P1.27mm_EP2.29x3mm")
